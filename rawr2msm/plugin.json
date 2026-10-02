@@ -1,0 +1,33 @@
+{
+    "name": "rawr2bin",
+    "description": "Converts a loaded .rawr animation to a My Singing Monsters animation bin.",
+    "author": "Clicktuck",
+    "engine": "python",
+    "version": "0.1",
+    "services": [
+        {
+            "type": "action",
+            "label": "rawr2bin",
+            "script": {
+                "module": "rawr2bin",
+                "function": "main",
+                "settings": [
+                    {
+                        "name": "XML",
+                        "label": "XML name",
+                        "type": "string",
+                        "default": "",
+                        "description": "Name of the XML spritesheet"
+                    },
+                    {
+                        "name": "Anim",
+                        "label": "Animation name",
+                        "type": "string",
+                        "default": "",
+                        "description": "Name of the animation in the .bin file"
+                    }
+                ]
+            }
+        }
+    ]
+}
