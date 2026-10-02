@@ -25,6 +25,13 @@
                         "type": "string",
                         "default": "",
                         "description": "Name of the animation in the .bin file"
+                    },
+                    {
+                        "name": "Path",
+                        "label": "File path",
+                        "type": "string",
+                        "default": "",
+                        "description": "What folder should be used to output the bin"
                     }
                 ]
             }
